@@ -19,10 +19,11 @@ Assumptions, mostly from here	https://medium.com/@tomaspueyo/coronavirus-the-ham
 * Time to hospitalization (days)	5											
 * Containment works at 1000 infectuous														
 														
-R	Deaths	Days til	Peak		Assumed morbidity
-	(1000s)	containment	hosp.		rate
-						(1000s)
-2.43	11570	170		15770		4.03									
+R	| Deaths	| Days til		| Peak	|	Assumed morbidity
+	| (1000s)	| containment	| hosp.	|	rate
+	|			|				|(1000s)|
+----|-----------|---------------|-------|--------
+2.43 |	11570 | 170	|	15770	|	4.03									
 2.31	11309	178		14850		4.03									
 2.21	11060	185		14060		4.03									
 2.11	10780	195		13190		4.03									
