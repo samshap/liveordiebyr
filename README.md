@@ -19,32 +19,34 @@ Assumptions, mostly from here	https://medium.com/@tomaspueyo/coronavirus-the-ham
 * Time to hospitalization (days)	5											
 * Containment works at 1000 infectuous														
 														
-R	| Deaths	| Days til		| Peak	|	Assumed morbidity
-	| (1000s)	| containment	| hosp.	|	rate
-	|			|				|(1000s)|
-----|-----------|---------------|-------|--------
-2.43 |	11570 | 170	|	15770	|	4.03									
-2.31	11309	178		14850		4.03									
-2.21	11060	185		14060		4.03									
-2.11	10780	195		13190		4.03									
-1.99	10350	long	11990		4.03									
-1.90	9950	long	10960		4.03									
-1.80	9460	long	9830		4.03									
-1.70	8950	long	8600		4.03									
-1.60	8150	long	7310		4.03									
-1.51	7210	long	5940		4.03			Notes						
-1.39	5560	long	4160		4.03		X	X = Deaths are undercounted, due to model cutting off after 218 days						
-1.29	2074	long	2530		3.24		X	Extrapolated relationship between hospital cases and morbidity, based on granularity of model, not 						
-1.19	1070	long	1160		2.48		X	Y = peak hospitalizations undercounted, due to model cutting off after 218 days						
-1.09	250 	long	277			1.68		X,Y							
-1.00	46.5	long	52			0.9			X							
-0.90	21.3	long	41			0.9									
-0.80	12.9	190		35.6		0.9									
-0.70	9.3 	133		32.4		0.9									
-0.61	7.4 	104		30.1		0.9									
-0.51	6.3 	86		28.4		0.9									
-0.39	5.3 	71		26.7		0.9									
-0.34	5.1 	67		26.1		0.9									
+R | Deaths (1000s) | Days til containment | Peak hosp. (1000s) |Assumed morbidity rate
+--------|---------------|-----------------------|-------|--------
+2.43 	|	11570 	|	170	|	15770	|	4.03	
+2.31	|	11309 	|	178	|	14850	|	4.03	
+2.21	|	11060	|	185	|	14060	|	4.03	
+2.11	|	10780	|	195	|	13190	|	4.03	
+1.99	|	10350	|	long	|	11990	|	4.03		
+1.90	|	9950	|	long	|	10960	|	4.03	
+1.80	|	9460	|	long	|	9830	|	4.03	
+1.70	|	8950	|	long	|	8600	|	4.03	
+1.60	|	8150	|	long	|	7310	|	4.03	
+1.51	|	7210	|	long	|	5940	|	4.03	
+1.39	|	5560 X	|	long	|	4160	|	4.03								
+1.29	|	2074 X	|	long	|	2530	|	3.24 Z								
+1.19	|	1070 X	|	long	|	1160	|	2.48 Z	
+1.09	|	250 X	|	long	|	277 Y	|	1.68 Z								
+1.00	|	46.5 X	|	long	|	52	|	0.9	
+0.90	|	21.3	|	long	|	41	|	0.9	
+0.80	|	12.9	|	190	|	35.6	|	0.9	
+0.70	|	9.3 	|	133	|	32.4	|	0.9	
+0.61	|	7.4 	|	104	|	30.1	|	0.9	
+0.51	|	6.3 	|	86	|	28.4	|	0.9	
+0.39	|	5.3 	|	71	|	26.7	|	0.9	
+0.34	|	5.1 	|	67	|	26.1	|	0.9								
+
+X = Deaths are undercounted, due to model cutting off after 218 days
+Y = peak hospitalizations undercounted, due to model cutting off after 218 days
+Z = Extrapolated relationship between hospital cases and morbidity, based only on granularity of model
 
 ### Impacts of 7 day delay of Strong Hammer	
-0.61	20.4	128		82.4		0.9
+0.61	|	20.4	|	128	|	82.4	|	0.9
