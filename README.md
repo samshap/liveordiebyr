@@ -1,7 +1,7 @@
 # liveordiebyr
 ## Analysis of Covid futures based on calculator here: 	https://gabgoh.github.io/COVID/index.html									
 
-by Samuel Shapero, Georgia Tech Research Institute														
+by Samuel A. Shapero, PhD														
 														
 ### Effects of R														
 Assumptions, mostly from here	https://medium.com/@tomaspueyo/coronavirus-the-hammer-and-the-dance-be9337092b56 										
