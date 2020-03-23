@@ -45,8 +45,12 @@ R | Deaths (1000s) | Days til containment | Peak hosp. (1000s) |Assumed morbidit
 0.34	|	5.1 	|	67	|	26.1	|	0.9								
 
 X = Deaths are undercounted, due to model cutting off after 218 days
+
 Y = peak hospitalizations undercounted, due to model cutting off after 218 days
+
 Z = Extrapolated relationship between hospital cases and morbidity, based only on granularity of model
 
-### Impacts of 7 day delay of Strong Hammer	
+### Impacts of 7 day delay of Strong Hammer
+R | Deaths (1000s) | Days til containment | Peak hosp. (1000s) |Assumed morbidity rate
+--------|---------------|-----------------------|-------|--------
 0.61	|	20.4	|	128	|	82.4	|	0.9
